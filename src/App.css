@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app > * {
+  padding: 1rem;
+}
+
+.header__title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.selectors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.selectors > * {
+  padding: 2rem;
+}
+
+.selectors__title {
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.result {
+  align-items: center;
+  display: flex;
+}
+
+.result__message {
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(120, 120, 120, 0.1);
+}
+
+.select {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.copied-message {
+  color: black;
+  font-style: italic;
+  margin-left: 1rem;
+  padding: 0.2rem 0.5rem;
+  text-shadow: 1px 1px 3px rgba(120, 120, 120, 0.1);
+}
+
+.button {
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.button:active {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
